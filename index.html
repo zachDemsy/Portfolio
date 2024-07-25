@@ -10,6 +10,16 @@
     <link rel="stylesheet" href="./assets/css/aos.css">
     <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init({
+                publicKey: "745Uj0ajYa0677-pK",
+            });
+        })();
+    </script>
+
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar">
@@ -18,8 +28,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container flex-lg-column">
             <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
-                <span class="h3 fw-bold d-block d-lg-none">PUlKIT PANDEY</span>
-                <img src="./assets/images/WhatsApp Image 2022-10-14 at 6.26.57 PM.jpeg" class="d-none d-lg-block rounded-circle" alt="">
+                <span class="h3 fw-bold d-block d-lg-none">Pulkit Pandey</span>
+                <img src="./assets/images/WhatsApp Image 2022-10-14 at 6.26.57 PM.jpg" class="d-none d-lg-block rounded-circle" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -59,11 +69,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10">
-                        <h1 class="display-4 fw-bold" data-aos="fade-up">I'M A <span class="text-brand">Student in Medi-Caps University</span> FROM INDORE,INDIA </h1>
-                        <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">I am Pulkit Pandey, And i am became a Full stack web developer </p>
+                        <h1 class="display-4 fw-bold" data-aos="fade-up">I'M A <span class="text-brand">Graduate from Medi-Caps University</span> IN INDORE, INDIA</h1>
+                        <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">I am Pulkit Pandey, and I am a Full Stack Web Developer.</p>
                         <div data-aos="fade-up" data-aos-delay="600">
                             <a href="#project" class="btn btn-brand me-3">Explore My Projects</a>
-                            <a href="#" class="link-custom">Call: (+91 8962245383)</a>
+                            <a href="#" class="link-custom">Call: (+91 8827157068)</a>
                         </div>
                     </div>
                 </div>
@@ -120,10 +130,10 @@
 
                         <div class="review shadow-effect bg-base p-4 rounded-4">
                             <div class="text-brand h5">
-                                <i class="lab la-java"></i>
+                                <i class="lab la-php"></i>
 
                             </div>
-                            <p class="my-3">Java is a high-level, class-based object-oriented programming language that is designed to have as few implementation dependencies as possible. </p>
+                            <p class="my-3">PHP is a popular server-side scripting language widely used for web development to create dynamic and interactive websites. </p>
                             <div class="person">
                                 <h5 class="mb-0">Wikipedia</h5>
                             </div>
@@ -144,7 +154,20 @@
                         </div>
 
                     </div>
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
 
+                        <div class="review shadow-effect bg-base p-4 rounded-4">
+                            <div class="text-brand h5">
+                                <i class="lab la-js"></i>
+                            </div>
+                            <p class="my-3">
+                                JavaScript is a versatile, high-level programming language essential for creating interactive and dynamic content on web pages.</p>
+                            <div class="person">
+                                <h5 class="mb-0">Wikipedia</h5>
+                            </div>
+                        </div>
+
+                    </div>
 
 
                 </div>
@@ -153,61 +176,57 @@
         </section>
         <!-- //SKILL -->
         <!-- DEVELOPING-SKILL -->
-        <section id="devloping-skill" class="full-height px-lg-5">
+        <section id="developing-skill" class="full-height px-lg-5">
             <div class="container">
-
                 <div class="row pb-4" data-aos="fade-up">
                     <div class="col-lg-8">
                         <h6 class="text-brand">Developing SKILL</h6>
-                        <h1>Skill Thats I working</h1>
+                        <h1>Skills That I Am Working On</h1>
                     </div>
                 </div>
 
                 <div class="row gy-4">
-
-                    <div class="col-md-4" data-aos="fade-up">
-                        <div class="devloping-skill p-4 bg-base rounded-4 shadow-effect">
-                            <div class="iconbox rounded-4">
+                    <div class="col-md-4 d-flex" data-aos="fade-up">
+                        <div class="developing-skill p-4 bg-base rounded-4 shadow-effect flex-fill">
+                            <div class="iconbox rounded-4 mb-3">
                                 <i class="lab la-bootstrap"></i>
                             </div>
-                            <h5 class="mt-4 mb-2">BOOTSTRAP</h5>
-                            <p>Using to create Wedpage</p>
+                            <h5 class="mt-2 mb-2">BOOTSTRAP</h5>
+                            <p>Using to create webpages</p>
                             <a href="https://getbootstrap.com/" class="link-custom">Read More</a>
                         </div>
                     </div>
 
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-                        <div class="devloping-skill p-4 bg-base rounded-4 shadow-effect">
-                            <div class="iconbox rounded-4">
+                    <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="300">
+                        <div class="developing-skill p-4 bg-base rounded-4 shadow-effect flex-fill">
+                            <div class="iconbox rounded-4 mb-3">
                                 <i class="lab la-node-js"></i>
                             </div>
-                            <h5 class="mt-4 mb-2">NODE-js</h5>
-                            <p>Use to Asynchronous Program</p>
+                            <h5 class="mt-2 mb-2">NODE.js</h5>
+                            <p>Used for Asynchronous Programming</p>
                             <a href="https://nodejs.org/en/" class="link-custom">Read More</a>
                         </div>
                     </div>
 
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
-                        <div class="devloping-skill p-4 bg-base rounded-4 shadow-effect">
-                            <div class="iconbox rounded-4">
+                    <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="600">
+                        <div class="developing-skill p-4 bg-base rounded-4 shadow-effect flex-fill">
+                            <div class="iconbox rounded-4 mb-3">
                                 <i class="lab la-react"></i>
                             </div>
-                            <h5 class="mt-4 mb-2">REACT-JS</h5>
-                            <p>Significantly less code than you world with vanilla Java script</p>
+                            <h5 class="mt-2 mb-2">REACT.js</h5>
+                            <p>Significantly less code than you would with vanilla JavaScript</p>
                             <a href="https://reactjs.org/" class="link-custom">Read More</a>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </section>
+
         <!-- DEVELOPING-SKILL -->
 
-        <!-- Projects-->
+        <!-- Projects -->
         <section id="project" class="full-height px-lg-5">
             <div class="container">
-
                 <div class="row pb-4" data-aos="fade-up">
                     <div class="col-lg-8">
                         <h6 class="text-brand">Projects</h6>
@@ -216,87 +235,101 @@
                 </div>
 
                 <div class="row gy-4">
-
-                    <div class="col-md-6" data-aos="fade-up">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                    <div class="col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-custom rounded-4 bg-base shadow-effect flex-fill">
                             <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/Screenshot (2).png" alt="">
+                                <img class="rounded-4" src="./assets/images/Certify.png" alt="Project Screenshot">
                             </div>
                             <div class="card-custom-content p-4">
-                                <h4></h4>
-                                <p>Course with Devtown and certificating by Developer Student Clubs</p>
-                                <a href="https://g24hqx.csb.app/" class="link-custom">Project Link</a>
+                                <h4>Certify</h4>
+                                <p>Major Project based on blockchain</p>
+                                <a href="https://github.com/Sufiyan1949/certify" class="link-custom">Source Code</a>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                    <div class="col-md-6 d-flex" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect flex-fill">
                             <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/Screenshot (3).png" alt="">
+                                <img class="rounded-4" src="./assets/images/E-commerc.png" alt="Project Screenshot">
                             </div>
                             <div class="card-custom-content p-4">
-                                <h4>Certify </h4>
-                                <p> Major Project based on blockchain  </p>
-                                <a href="https://github.com/Sufiyan1949/certify" class="link-custom">Project Link</a>
+                                <h4>E-commerce Website</h4>
+                                <p> An online e-commerce website for purchasing goods showcasing user authentication, product listings, cart, checkout, and admin panel </p>
+                                <a href="https://github.com/zachDemsy/ecommerce-website-php" class="link-custom">Source Code</a>
                             </div>
                         </div>
                     </div>
 
 
                 </div>
-
             </div>
-        </section>
-        <!-- //Projects-->
-        <!-- CONTACT -->
-        <section id="contact" class="full-height px-lg-5">
-            <div class="container">
+    </div>
+    </section>
 
-                <div class="row justify-content-center text-center">
-                    <div class="col-lg-8 pb-4" data-aos="fade-up">
-                        <h6 class="text-brand">CONTACT</h6>
-                        <h1>Interested in working together? Let's talk
-                        </h1>
-                    </div>
-
-                    <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
-                        <form action="#" class="row g-lg-3 gy-3">
-                            <div class="form-group col-md-6">
-                                <input type="text" class="form-control" placeholder="Enter your name">
-                            </div>
-                            <div class="form-group col-md-6">
-                                <input type="email" class="form-control" placeholder="Enter your email">
-                            </div>
-                            <div class="form-group col-12">
-                                <input type="text" class="form-control" placeholder="Enter subject">
-                            </div>
-                            <div class="form-group col-12">
-                                <textarea name="" rows="4" class="form-control" placeholder="Enter your message"></textarea>
-                            </div>
-                            <div class="form-group col-12 d-grid">
-                                <button type="submit" class="btn btn-brand">Contact me</button>
-                            </div>
-                        </form>
-                    </div>
+    <!-- //Projects-->
+    <!-- CONTACT -->
+    <section id="contact" class="full-height px-lg-5">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8 pb-4" data-aos="fade-up">
+                    <h6 class="text-brand">CONTACT</h6>
+                    <h1>Interested in working together? Let's talk</h1>
                 </div>
-
-
+                <div class="col-lg-8 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="300">
+                    <form id="contact-form" class="row g-lg-3 gy-3 w-100">
+                        <div class="form-group col-md-6 mx-auto">
+                            <input type="text" name="name" class="form-control" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group col-md-6 mx-auto">
+                            <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group col-12 mx-auto">
+                            <input type="text" name="subject" class="form-control" placeholder="Enter subject" required>
+                        </div>
+                        <div class="form-group col-12 mx-auto">
+                            <textarea name="message" rows="4" class="form-control" placeholder="Enter your message" required></textarea>
+                        </div>
+                        <div class="form-group col-12 d-grid mx-auto">
+                            <button type="submit" class="btn btn-brand">Contact me</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-        </section>
+        </div>
+
+        <script>
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault(); // Prevent the default form submission
+
+                // Ensure emailjs is available
+                if (typeof emailjs !== 'undefined') {
+                    emailjs.sendForm('service_1s6kjgz', 'template_2qsnl0e', this)
+                        .then(function(response) {
+                            alert('Message sent successfully!');
+                            console.log('Sent successfully:', response);
+                            document.getElementById('contact-form').reset(); // Clear the form fields
+                        }, function(error) {
+                            alert('Failed to send message. Please try again.');
+                            console.log('Error:', error);
+                        });
+                } else {
+                    console.error('EmailJS is not defined');
+                }
+            });
+        </script>
+
+
         <!-- //CONTACT -->
 
         <!-- FOOTER -->
         <footer class="py-5 px-lg-5">
             <div class="container">
-                <div class="row gy-4 justify-content-between">
+                <div class="row gy-4 justify-content-center">
                     <div class="col-auto">
-                        <p class="mb-0">Designed by <a href="https://www.instagram.com/pulkitpandey1212/" class="fw-bold">Pulkit Pandey</a></p>
+                        <p class="mb-0"> Designed by <a href="https://www.linkedin.com/in/pulkit-pandey-5a41ab251/" class="fw-bold">Pulkit Pandey</a></p>
                     </div>
                     <div class="col-auto">
                         <div class="social-icons">
-                            <a href="#"><i class="lab la-twitter"></i></a>
-                            <a href="https://www.instagram.com/pulkitpandey1212/"><i class="lab la-instagram"></i></a>
                             <a href="https://www.linkedin.com/in/pulkit-pandey-5a41ab251/"><i class="lab la-linkedin-in"></i></a>
                             <a href="https://github.com/zachDemsy"><i class="lab la-github"></i></a>
                         </div>
@@ -306,13 +339,15 @@
         </footer>
         <!-- //FOOTER -->
 
-    </div>
+        </div>
 
 
 
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
-    <script src="./assets/js/aos.js"></script>
-    <script src="./assets/js/main.js"></script>
+        <script src="./assets/js/bootstrap.bundle.min.js"></script>
+        <script src="./assets/js/aos.js"></script>
+        <script src="./assets/js/main.js"></script>
+
+
 </body>
 
 </html>

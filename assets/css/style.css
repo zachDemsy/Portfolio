@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
 :root {
-    --color-body: #09128f;
+    --color-body: #ffdab9;
     --color-heading: #f9fcef;
-    --color-base: #94a72b;
-    --color-base2: #1a8d46;
-    --color-brand: #c3f50c;
-    --color-brand2: #deff58;
+    --color-base: #2e3941;
+    --color-base2: #36454f;
+    --color-brand: #f9c597;
+    --color-brand2: #fa9d4c;
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree";
 }
@@ -172,6 +172,36 @@ img {
     transform: scale(1.1);
 }
 
+.card-custom {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-custom-image img {
+    width: 100%;
+    height: auto;
+}
+
+.card-custom-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-custom-content h4 {
+    margin-bottom: 0.5rem;
+}
+
+.card-custom-content p {
+    flex: 1;
+}
+
+.card-custom-content a {
+    margin-top: auto;
+}
+
 
 /* CONTACT */
 
@@ -208,4 +238,28 @@ img {
     background-color: var(--color-base);
     border-radius: 100px;
     font-size: 24px;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.review .text-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review p {
+    flex: 1;
+}
+
+.review .person {
+    margin-top: auto;
+}
+
+.review h5 {
+    margin-bottom: 0;
 }
